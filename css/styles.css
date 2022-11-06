@@ -8,12 +8,41 @@ ul {
     list-style: none;
 }
 
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+}
+
 .site-nav .link {
     color: #212121;
 }
 
-.site-nav .link:hover, 
+.site-nav .link:hover,
 .site-nav .link:focus {
+    color: #2196F3;
+}
+
+.site-nav .link2 {
+    color: #212121;
+}
+
+.site-nav .link2:hover,
+.site-nav .link2:focus {
+    color: #2196F3;
+}
+
+.site-nav .link3 {
+    color: #212121;
+}
+
+.site-nav .link3:hover,
+.site-nav .link3:focus {
     color: #2196F3;
 }
 
@@ -21,3 +50,34 @@ ul {
     color: #2196F3;
 }
 
+.hero-bay {
+    color: #ffffff;
+    background-color: #2196F3;
+
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    text-align: center;
+}
+
+.post {
+}
+
+.text {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+}
+
+.company {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+}
